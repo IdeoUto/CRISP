@@ -1,0 +1,19 @@
+Running Microbenchmarks ...
+=====================Configuration======================
+Party Id: 1 - Server IP Address: 127.0.0.1 - Port: 25100 - NRelu: 512 - Bitlen: 32 - Choice RELU: 1 - #Threads: 4
+========================================================
+connected
+connected
+connected
+connected
+######################Performance#######################
+Time Taken: 31776 mus
+Sent Data (Bytes): 1460992
+Sent Data (KB): 1426
+Sent Data (MB): 1
+########################################################
+**********************Verification**********************
+Correct Input Macs: 512
+Correct Outputs: 512
+Correct Output Macs: 512
+********************************************************

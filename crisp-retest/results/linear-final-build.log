@@ -1,0 +1,8 @@
+[ 28%] Built target crisp_ckks
+[ 28%] Built target simc_ring32
+[ 50%] Building CXX object CMakeFiles/crisp_linear.dir/validated/bench.cpp.o
+[ 50%] Built target test_ckks
+[ 78%] Built target crisp_model_bridge
+[ 92%] Built target crisp_model_worker
+[100%] Linking CXX executable crisp_linear
+[100%] Built target crisp_linear

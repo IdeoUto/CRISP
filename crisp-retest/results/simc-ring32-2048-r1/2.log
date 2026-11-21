@@ -1,0 +1,14 @@
+Running Microbenchmarks ...
+=====================Configuration======================
+Party Id: 2 - Server IP Address: 127.0.0.1 - Port: 25100 - NRelu: 2048 - Bitlen: 32 - Choice RELU: 1 - #Threads: 4
+========================================================
+connected
+connected
+connected
+connected
+######################Performance#######################
+Time Taken: 36711 mus
+Sent Data (Bytes): 1147412
+Sent Data (KB): 1120
+Sent Data (MB): 1
+########################################################

@@ -1,0 +1,19 @@
+{
+  "description": "Communication split of the ring-32 SIMC-style GC baseline at 2^18 ReLUs, 4 threads. setup_bytes is EMP base-OT/setup; circuit_bytes is the garbled-circuit traffic; label_tables_bytes is the three SIMC label tables sent by P0 (3 * 256 B/ReLU at bitlen=32).",
+  "command": "simc_ring32 1|2 127.0.0.1 <port> 32 1 262144 4",
+  "nrelu": 262144,
+  "bitlen": 32,
+  "threads": 4,
+  "party1_setup_bytes": 35584,
+  "party2_setup_bytes": 1081876,
+  "party1_circuit_bytes": 729808896,
+  "party2_circuit_bytes": 143671040,
+  "setup_bytes": 1117460,
+  "circuit_bytes": 873479936,
+  "total_bytes": 874597396,
+  "label_tables_bytes": 201326592,
+  "emp_circuit_only_bytes": 672153344,
+  "setup_s": 1.107250,
+  "party2_online_s": 1.169995,
+  "correct_outputs": 262144
+}

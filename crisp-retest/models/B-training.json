@@ -1,0 +1,212 @@
+[
+  {
+    "model": "B",
+    "epoch": 1,
+    "validation_accuracy": 0.4494,
+    "seconds": 11.971958332927898,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 2,
+    "validation_accuracy": 0.4886,
+    "seconds": 8.21636945893988,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 3,
+    "validation_accuracy": 0.6126,
+    "seconds": 8.677801667014137,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 4,
+    "validation_accuracy": 0.6392,
+    "seconds": 8.31922833295539,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 5,
+    "validation_accuracy": 0.6668,
+    "seconds": 8.619965000078082,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 6,
+    "validation_accuracy": 0.6798,
+    "seconds": 11.243898625019938,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 7,
+    "validation_accuracy": 0.7064,
+    "seconds": 8.731477125082165,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 8,
+    "validation_accuracy": 0.7098,
+    "seconds": 8.721734832972288,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 9,
+    "validation_accuracy": 0.7354,
+    "seconds": 8.784233416896313,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 10,
+    "validation_accuracy": 0.7384,
+    "seconds": 8.821403082925826,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 11,
+    "validation_accuracy": 0.7472,
+    "seconds": 8.479476084001362,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 12,
+    "validation_accuracy": 0.7504,
+    "seconds": 8.687367750098929,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 13,
+    "validation_accuracy": 0.7644,
+    "seconds": 8.291154500097036,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 14,
+    "validation_accuracy": 0.755,
+    "seconds": 8.408419833052903,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 15,
+    "validation_accuracy": 0.7662,
+    "seconds": 8.174211917212233,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 16,
+    "validation_accuracy": 0.7752,
+    "seconds": 8.185175041900948,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 17,
+    "validation_accuracy": 0.7762,
+    "seconds": 8.182051084004343,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 18,
+    "validation_accuracy": 0.7802,
+    "seconds": 8.279186041094363,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 19,
+    "validation_accuracy": 0.7738,
+    "seconds": 8.181199125014246,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 20,
+    "validation_accuracy": 0.778,
+    "seconds": 8.181674542138353,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 21,
+    "validation_accuracy": 0.7772,
+    "seconds": 8.162377291126177,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 22,
+    "validation_accuracy": 0.7736,
+    "seconds": 8.142380125122145,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 23,
+    "validation_accuracy": 0.7764,
+    "seconds": 8.152098833117634,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 24,
+    "validation_accuracy": 0.7776,
+    "seconds": 8.177465040935203,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 25,
+    "validation_accuracy": 0.7802,
+    "seconds": 8.156661791959777,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 26,
+    "validation_accuracy": 0.7774,
+    "seconds": 8.135681458050385,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 27,
+    "validation_accuracy": 0.7788,
+    "seconds": 8.150290499906987,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 28,
+    "validation_accuracy": 0.7774,
+    "seconds": 8.279598166933283,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 29,
+    "validation_accuracy": 0.7758,
+    "seconds": 8.454988457961008,
+    "device": "mps"
+  },
+  {
+    "model": "B",
+    "epoch": 30,
+    "validation_accuracy": 0.7778,
+    "seconds": 8.259893791982904,
+    "device": "mps"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "environment": {
+    "started_at": "2026-11-21 15:11:33 +0800",
+    "platform": "macOS-14.6.1-arm64-arm-64bit",
+    "machine": "arm64",
+    "network": "127.0.0.1 TCP loopback, TCP_NODELAY; no bandwidth shaping",
+    "threads": 4,
+    "repeats": 3,
+    "training_concurrent": false,
+    "scope": "components only; malicious-secure end-to-end incomplete",
+    "cpu": "Apple M1 Pro",
+    "memory": "17179869184"
+  },
+  "fss_key_bytes_per_party_paper": 1744,
+  "fss_key_bytes_per_party_exact": 3456,
+  "fss_runs": 36,
+  "linear_runs": 45,
+  "baseline_runs": 30,
+  "pool_runs": 3,
+  "accuracy": {
+    "A": {
+      "model": "A",
+      "source": "newly trained same-shape model",
+      "full_test_examples": 10000,
+      "plaintext_accuracy": 0.9885,
+      "fixedpoint_simulation_accuracy": 0.9885,
+      "simulation_prediction_agreement": 1.0,
+      "simulation_is_crisp_secure_inference": false,
+      "sample_scope": "single-process CKKS linear layers + exact FSS ReLU functional validation; FSS comparison-tree maxpool and encrypted bias; not secure inference",
+      "sample_count": 16,
+      "sample_prediction_agreement": 1.0,
+      "sample_he_fss_accuracy": 1.0
+    },
+    "B": {
+      "model": "B",
+      "source": "newly trained same-shape model",
+      "full_test_examples": 10000,
+      "plaintext_accuracy": 0.7684,
+      "fixedpoint_simulation_accuracy": 0.7683,
+      "simulation_prediction_agreement": 0.9999,
+      "simulation_is_crisp_secure_inference": false,
+      "sample_scope": "single-process CKKS linear layers + exact FSS ReLU functional validation; FSS comparison-tree maxpool and encrypted bias; not secure inference",
+      "sample_count": 16,
+      "sample_prediction_agreement": 1.0,
+      "sample_he_fss_accuracy": 0.8125
+    }
+  }
+}

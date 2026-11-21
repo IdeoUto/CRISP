@@ -1,0 +1,1 @@
+{"role":"dealer","count":32768,"threads":4,"setup_s":0.0314455830958,"offline_s":0.0714990829583,"key_bytes_per_party_per_relu":1744,"key_distribution_bytes":114294784,"fixture_bytes":524288,"sent_bytes_including_setup":114819096}

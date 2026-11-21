@@ -1,0 +1,21 @@
+# macOS / 通用
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
+
+# Python
+.venv/
+venv/
+
+# 构建产物
+build/
+build-*/
+bin/
+*.dylib
+*.so
+*.a
+
+# 数据集与备份（由脚本自动下载 / 仅本地存档）
+data/
+backups/

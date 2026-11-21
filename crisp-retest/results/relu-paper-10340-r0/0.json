@@ -1,0 +1,1 @@
+{"role":0,"mode":"paper","count":10340,"threads":4,"network":"loopback","setup_s":0.036578750005,"offline_receive_s":0.0230415000115,"online_s":0.00929825007915,"online_sent_bytes":41360,"validation_sent_bytes":0,"protocol_errors":0,"signed_relu_mismatches":0,"malicious_security_complete":false}

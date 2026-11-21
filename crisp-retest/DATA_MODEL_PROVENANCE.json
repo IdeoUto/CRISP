@@ -1,0 +1,68 @@
+{
+  "MNIST": {
+    "mirrors": [
+      "http://yann.lecun.com/exdb/mnist/",
+      "https://ossci-datasets.s3.amazonaws.com/mnist/"
+    ],
+    "expected_resources": [
+      [
+        "train-images-idx3-ubyte.gz",
+        "f68b3c2dcbeaaa9fbdd348bbdeb94873"
+      ],
+      [
+        "train-labels-idx1-ubyte.gz",
+        "d53e105ee54ea40749a09fcbcd1e9432"
+      ],
+      [
+        "t10k-images-idx3-ubyte.gz",
+        "9fb629c4189551a2d022fa330f9573f3"
+      ],
+      [
+        "t10k-labels-idx1-ubyte.gz",
+        "ec29112dd5afa0611ce80d1b7f02629c"
+      ]
+    ]
+  },
+  "CIFAR10": {
+    "url": "https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz",
+    "expected_archive_md5": "c58f30108f718f92721af3b95e74349a"
+  },
+  "downloads": [
+    {
+      "file": "data/MNIST/raw/t10k-images-idx3-ubyte.gz",
+      "bytes": 1648877,
+      "md5": "9fb629c4189551a2d022fa330f9573f3"
+    },
+    {
+      "file": "data/MNIST/raw/t10k-labels-idx1-ubyte.gz",
+      "bytes": 4542,
+      "md5": "ec29112dd5afa0611ce80d1b7f02629c"
+    },
+    {
+      "file": "data/MNIST/raw/train-images-idx3-ubyte.gz",
+      "bytes": 9912422,
+      "md5": "f68b3c2dcbeaaa9fbdd348bbdeb94873"
+    },
+    {
+      "file": "data/MNIST/raw/train-labels-idx1-ubyte.gz",
+      "bytes": 28881,
+      "md5": "d53e105ee54ea40749a09fcbcd1e9432"
+    },
+    {
+      "file": "data/cifar-10-python.tar.gz",
+      "bytes": 170498071,
+      "md5": "c58f30108f718f92721af3b95e74349a"
+    }
+  ],
+  "weights": {
+    "source": "locally trained, not downloaded original paper checkpoints",
+    "script": "train_models.py",
+    "seed": 20261121,
+    "validation_examples_from_training": 5000,
+    "test_examples_each": 10000,
+    "A_epochs": 10,
+    "B_epochs": 30,
+    "pooling": "MaxPool2d; original training configuration unavailable"
+  },
+  "environment": "requirements.txt"
+}

@@ -1,0 +1,13 @@
+-- Microsoft SEAL -> Version 3.6.4 detected
+-- Microsoft SEAL -> Targets available: SEAL::seal
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /Users/fangxiaoyu/Desktop/msi-code/crisp-retest/build-ckks
+[ 28%] Built target simc_ring32
+[ 28%] Built target crisp_ckks
+[ 50%] Built target crisp_linear
+[ 57%] Built target test_ckks
+[ 85%] Built target crisp_model_bridge
+[ 92%] Building CXX object CMakeFiles/crisp_model_worker.dir/validated/model_worker.cpp.o
+[100%] Linking CXX executable crisp_model_worker
+[100%] Built target crisp_model_worker

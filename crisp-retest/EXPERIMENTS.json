@@ -1,0 +1,11 @@
+{
+  "paper": "/Users/fangxiaoyu/Desktop/PHD-DOC/crisp/CRISP-final/CRISP-final.pdf",
+  "network": "two online processes on TCP loopback; separate trusted preprocessing dealer",
+  "nonlinear": {"counts": [512,1024,2048,4096,8192,16384,32768,65536,131072,262144], "threads":4,"repeats":3,"paper_mode":"one DCF per output function, wrap approximation retained","exact_mode":"two DCFs per output function, circular interval"},
+  "ckks": {"degrees":[8192,16384],"modulus_bits":[60,40,40,60],"scale_bits":40,"security_check":"SEAL tc128","expand_mod_chain":true,"note":"The paper does not specify the complete modulus chain for its 16384 results; both degrees use a declared 200-bit configuration here."},
+  "A": {"input":[1,28,28],"conv":[{"h":28,"ci":1,"co":16,"kernel":5,"padding":0},{"h":12,"ci":16,"co":16,"kernel":5,"padding":0}],"fc":[[256,100],[100,10]],"relu_counts":[9216,1024,100],"relu_total":10340,"pool_input_counts":[9216,1024],"pool_window":4,"pool_comparisons":7680},
+  "B": {"input":[3,32,32],"conv":[{"h":32,"ci":3,"co":64,"kernel":3,"padding":1},{"h":32,"ci":64,"co":64,"kernel":3,"padding":1},{"h":16,"ci":64,"co":64,"kernel":3,"padding":1},{"h":16,"ci":64,"co":64,"kernel":3,"padding":1},{"h":8,"ci":64,"co":64,"kernel":3,"padding":1},{"h":8,"ci":64,"co":64,"kernel":1,"padding":0},{"h":8,"ci":64,"co":16,"kernel":1,"padding":0}],"fc":[[1024,10]],"relu_counts":[65536,65536,16384,16384,4096,4096,1024],"relu_total":173056},
+  "shape_provenance":"Paper Section VI, retained SIMC/CKKS FC dimensions and ReLU counts. Resolve contradictory historical pad_valid flags in favor of stated output sizes: A valid convolution; B same padding for 3x3.",
+  "accuracy":"10,000 test images per dataset for plaintext/fixedpoint simulation; separate explicitly sized cryptographic functional sample; newly trained weights, not the unavailable original paper checkpoints.",
+  "not_claimed":["zero-knowledge proofs of CKKS plaintext knowledge","maliciously secure key generation","128-bit soundness of 32-bit MAC checks","secure HE-to-ring conversion/truncation","complete secret-shared end-to-end inference","identical original paper weights"]
+}

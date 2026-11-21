@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-11-21 15:11:33 +0800",
+  "platform": "macOS-14.6.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "network": "127.0.0.1 TCP loopback, TCP_NODELAY; no bandwidth shaping",
+  "threads": 4,
+  "repeats": 3,
+  "training_concurrent": false,
+  "scope": "components only; malicious-secure end-to-end incomplete",
+  "cpu": "Apple M1 Pro",
+  "memory": "17179869184"
+}

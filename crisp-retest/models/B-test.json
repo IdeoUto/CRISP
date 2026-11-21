@@ -1,0 +1,6 @@
+{
+  "test_accuracy": 0.7684,
+  "test_examples": 10000,
+  "checkpoint_selection": "validation split, not test set",
+  "source": "locally trained same-shape architecture"
+}
