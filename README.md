@@ -53,18 +53,4 @@ python3 run_suite.py                # ReLU/全连接/卷积/GC 基线/MaxPool �
 
 见 [crisp-retest/REPORT.md](crisp-retest/REPORT.md)。
 
-## 引用
 
-```bibtex
-@inproceedings{fang2026crisp,
-  title={CRISP: An Efficient Cryptographic Framework for ML Inference Against Malicious Clients},
-  author={Fang, Xiaoyu and Zheng, Shihui and Gu, Lize},
-  booktitle={Network and Distributed System Security (NDSS) Symposium},
-  year={2026},
-  doi={10.14722/ndss.2026.230011}
-}
-```
-
-## 许可
-
-本仓库未附加统一许可证；`CKKS-master/` 保留其原有 `LICENSE` 文件。其余代码如需要用于其他用途，请联系作者。
